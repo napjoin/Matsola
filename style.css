@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/720/154/non_2x/cat-seamless-pattern-head-kitten-calico-repeat-wallpaper-scarf-isolated-cartoon-tile-background-doodle-illustration-black-vector.jpg);
+    background-repeat: initial;
+    background-size: contain;
+    color: aliceblue;
+}
+
+.kitttyyyyy{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.566);
+    padding: 5px;
+    color: rgb(69, 0, 142);
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.kitttyyyyy p:hover{
+    transition: 1s;
+}
+.kitttyyyyy p:hover{
+    font-size: 20px;
+    color: rgb(10, 0, 50);
+}
+
+.kitttyyyyy img{
+    border: 5px double black;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.kitttyyyyy img:hover{
+    transform: scale(1.2);
+}
+
+header h1{
+    background-color: brown;
+    text-align: center;
+    border-radius:144px;
+}
+
+nav{
+    position: relative;
+    left: -10px;
+    background-color: brown;
+    padding: 10px; 
+    width: 80%;
+    margin:0px;
+}
+
+nav a{
+    color:antiquewhite ;
+    text-decoration: none ;
+    background-color: rgb(133, 24, 24);
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+nav a::after{
+    content: '';
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/041/642/908/small_2x/ai-generated-cute-cat-reaching-up-with-paw-on-transparent-background-png.png);
+    background-repeat: no-repeat;
+    left: -1px;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    opacity: 0;
+}
+
+nav a:hover::after{
+    opacity: 1;
+}
+
+nav a:hover {
+    background-color: blueviolet;
+}
+
+.back{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: brown;
+    border-top-right-radius: 5px;
+    border: 5px solid black
+}
